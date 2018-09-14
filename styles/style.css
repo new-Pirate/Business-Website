@@ -1,0 +1,336 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: #fff;
+}
+header .product_name {
+  background-color: #445162;
+  color: #fff;
+  padding-bottom: 50px;
+}
+header .product_name:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+header .product_name .product_name_text {
+  margin-top: 30px;
+  padding-left: 35px;
+}
+header .product_name .product_name_text h1 {
+  font-size: 59px;
+}
+header .product_name .product_name_text ul {
+  list-style: inside url("../images/check_icon.png");
+  font-size: 20px;
+  line-height: 36px;
+  padding-left: 0;
+}
+header .product_name .product_name_img {
+  margin: 50px 35px 0 0 ;
+  width: 100%;
+}
+header .about_name {
+  color: #445161;
+  padding-bottom: 50px;
+}
+header .about_name:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+header .about_name .about_name_text {
+  margin-top: 30px;
+  padding-left: 35px;
+}
+header .about_name .about_name_text h2 {
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+header .about_name .about_name_text p {
+  font-size: 16px;
+  line-height: 24px;
+}
+header .about_name .about_name_img {
+  margin: 50px 35px 0 0 ;
+  width: 100%;
+}
+.visual {
+  padding-bottom: 50px;
+}
+.visual video {
+  width: 100%;
+}
+.dignity {
+  background-color: #F5F5F5;
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+.dignity:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.dignity h2 {
+  font-size: 30px;
+  line-height: 30px;
+  margin: 0;
+  color: #445161;
+}
+.dignity .dignity_lists {
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  padding: 0 20px 0 20px;
+}
+.dignity .dignity_lists:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.dignity .dignity_lists li {
+  list-style: none;
+  background: url("../images/plus_icon.gif") no-repeat left 5px;
+  padding-left: 40px;
+  box-sizing: border-box;
+  text-align: justify;
+  margin-top: 35px;
+}
+.scrinshots {
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+.scrinshots:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.scrinshots h2 {
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0;
+}
+.scrinshots .scrinshots_unit {
+  margin-top: 30px;
+}
+.scrinshots .scrinshots_unit:nth-child(even) {
+  padding-left: 20px;
+}
+.scrinshots .scrinshots_unit:nth-child(odd) {
+  padding: 0 0 0 20px;
+}
+.scrinshots .scrinshots_unit .scrinshots_img {
+  padding: 0 16px 0 0;
+  float: left;
+}
+.scrinshots .scrinshots_unit .scrinshots_text {
+  text-align: justify;
+  padding: 0;
+}
+.scrinshots .scrinshots_unit .scrinshots_text h2 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 30px;
+  color: #445161;
+}
+.scrinshots .scrinshots_unit .scrinshots_text p {
+  color: #333333;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+}
+.reviews {
+  background-color: #F5F5F5;
+  text-align: center;
+  padding: 50px 15px 50px 15px;
+}
+.reviews:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.reviews h2 {
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0;
+}
+.reviews .reviews_unit {
+  margin-top: 30px;
+  padding: 0;
+}
+.reviews .reviews_unit .reviews_img {
+  padding: 0;
+}
+@media (max-width: 992px) {
+  .reviews .reviews_unit .reviews_img {
+    margin-bottom: 20px;
+  }
+}
+.reviews .reviews_unit .reviews_text {
+  text-align: justify;
+  padding: 16px;
+  background: #ebebeb;
+  border-radius: 4px;
+  color: #333333;
+}
+.reviews .reviews_unit .reviews_text::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -10px;
+  top: 27px;
+  background: #ebebeb;
+  transform: rotate(45deg);
+}
+@media (max-width: 992px) {
+  .reviews .reviews_unit .reviews_text::before {
+    top: -10px;
+    left: calc(50% - 10px);
+  }
+}
+.reviews .reviews_unit .reviews_text .reviews_text_author {
+  color: #989898;
+}
+.buy {
+  padding: 50px 0 50px 0;
+  text-align: center;
+  color: #fff;
+}
+.buy:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.buy h2 {
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0;
+  color: #445161;
+}
+.buy .buy_units {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+@media (max-width: 992px) {
+  .buy .buy_units {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.buy .buy_units .buy_unit {
+  background-color: #485161;
+  border-radius: 5px;
+  border: 2px solid #445161;
+}
+.buy .buy_units .buy_unit h2 {
+  color: #fff;
+  font-size: 24px;
+  line-height: 30px;
+  padding: 17px ;
+  margin: 0;
+}
+.buy .buy_units .buy_unit .buy_unit_price {
+  background-color: #fff;
+  color: #445161;
+  font-size: 40px;
+  line-height: 30px;
+  padding: 18px 0;
+}
+.buy .buy_units .buy_unit .buy_unit_text {
+  text-align: left;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 20px;
+}
+.buy .buy_units .buy_unit .buy_unit_button {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  background: #ffffff;
+  color: #445161;
+  padding: 14px;
+  border-radius: 5px;
+  display: block;
+  margin: 0 20px 20px 20px;
+  text-decoration: none;
+}
+@media (max-width: 992px) {
+  .buy .buy_units .buy_unit {
+    margin-bottom: 20px;
+  }
+}
+.contacts {
+  background-color: #485161;
+  padding: 50px 0 50px 0;
+  color: #445162;
+}
+.contacts:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.contacts h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0;
+}
+.contacts .contacts_group {
+  margin-top: 30px;
+}
+.contacts .contacts_group .contacts_group_form {
+  text-align: center;
+}
+.contacts .contacts_group .contacts_group_form .contacts_group_form_button {
+  width: 140px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.contacts .contacts_group .contacts_group_social {
+  text-align: left;
+  color: #fff;
+}
+.contacts .contacts_group .contacts_group_social .skype,
+.contacts .contacts_group .contacts_group_social .icq,
+.contacts .contacts_group .contacts_group_social .email,
+.contacts .contacts_group .contacts_group_social .phone {
+  padding-left: 30px;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.contacts .contacts_group .contacts_group_social .skype {
+  background: url("../images/skype_icon.png") no-repeat;
+}
+.contacts .contacts_group .contacts_group_social .icq {
+  background: url("../images/icq_icon.png") no-repeat;
+}
+.contacts .contacts_group .contacts_group_social .email {
+  background: url("../images/email_icon.png") no-repeat;
+}
+.contacts .contacts_group .contacts_group_social .phone {
+  background: url("../images/phone_icon.png") no-repeat;
+}
+.contacts .contacts_group .contacts_group_social .social_buttons {
+  font-size: 60px;
+  line-height: 44px;
+  font-family: SocialIco, sans-serif;
+  color: #ffffff;
+}
+.copy {
+  background-color: #fff;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  height: 25px;
+  color: #445161;
+}
